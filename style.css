@@ -1,0 +1,53 @@
+body{
+    font-family: 'Rubik Iso', cursive;
+    background-image: url("Fondo.JPEG");
+}
+.T{
+    color: rgb(72, 255, 0);
+    font-size: 50px;
+}
+.C{
+    color: rgb(72, 255, 0);
+    font-size: 35px;
+}
+.C2{
+    font-size: 30px;
+    width: 250px;
+    color: red;
+    text-align: center;
+    border-color: yellow;
+    border-width: 5px;
+    font-family: 'Rubik Iso', cursive;
+}
+.F{
+    width: 250px;
+    font-size: 20px;
+    border-color: rgb(255, 0, 0);
+    border-style: groove;
+    border-width: 5px;
+    color: rgb(180, 7, 180);
+    font-family: 'Rubik Iso', cursive;
+}
+.F2{
+    width: 250px;
+    font-size: 20px;
+    border-color: rgb(0, 255, 179);
+    border-style: groove;
+    border-width: 5px;
+    color: rgb(7, 180, 50);
+    font-family: 'Rubik Iso', cursive;
+}
+canvas{
+    margin-top: 300px;
+    animation-name: animacion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animacion {
+    from{
+        box-shadow: 20px 20px 35px blue;
+    }
+    to{
+        box-shadow: 20px 20px 35px red;
+    }
+}
